@@ -34,3 +34,52 @@ a {
     height: 30px;
     border-radius: 50%;
 }
+/* logo  && search section */
+
+/*#logo-search {
+    display: flex;
+    border: 2px solid;
+    justify-content: center;
+}*/
+.logo {
+   display: block;
+   margin: auto auto;
+   
+}
+/*
+#form {
+    margin: 0rem auto;
+}*/
+#search {
+    display: block;
+    margin: 0rem auto;
+    width: 350px;
+    max-width:350px ;
+    height:2.5rem;
+    border-radius: 4px;
+    border:0.5px solid #ccc;
+}
+.btn-cont {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    background-color: #f6f6f6;
+    border-radius: 4px;
+    color: #9B9B9B;
+    height: 2rem;
+    border: 0;
+    margin: 1rem 1rem;
+    cursor: pointer; 
+    
+}
+.btn:hover {
+    background-color: #f6f6f6;
+    border-radius: 4px;
+    color: black;
+    height: 2rem;
+    border: 1px solid #ccc;
+    margin: 1rem 1rem;
+    cursor: pointer; 
+    
+}
