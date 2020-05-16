@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css">
     <link
       rel="shortcut icon"
       href="images/google-ico.png"
@@ -14,14 +15,18 @@
   <nav id="top-navbar" class="navbar">
     <ul>
       <a href=""><li>Gmail</li></a>
-      <a href=""><li>Images</li></a>
+      <a href=""><li>Images</li>
+      <a href=""><li><i class="fas fa-th"></i></li></a>
       <a href=""></a><li><img class="profile-pic" src="images/profile-img-100px.png" alt="" /></li></a>
     </ul>
   </nav>
   <section id="logo-search">
     <img class="logo" src="images/doodle-google.png" alt="Google logo" />
     <form id="form" action="">
-      <input type="search" name="" id="search" />
+      <div id="searchbox">
+      <span class="searchico"><i class="fas fa-search"></i></span><input type="search" name="" id="search" />
+      <span class="microico"><i class="fas fa-microphone"></i></i>
+      </div>
       <div class="btn-cont">
       <button class="btn">Google Search</button>
       <button class="btn">I'm Feeling Lucky</button>
