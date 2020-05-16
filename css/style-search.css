@@ -99,3 +99,25 @@ i {
    justify-content: flex-end;
    margin-right: 2rem;
 }
+/* top nav bar */
+#main-nav {
+    display: flex;
+    justify-content: flex-start;
+    font-size:11px;
+    
+    margin-top: 1rem;
+    border-bottom: 0.5px solid #ccc;
+}
+#main-nav ul {
+    margin-left: 10rem;
+    padding: 0;
+    
+}
+#main-nav i {
+    font-size: 10px;
+    padding: 1px;
+}
+#main-nav .all {
+    border-bottom:2px solid rgb(66, 133, 244);
+    
+}
