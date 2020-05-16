@@ -22,6 +22,9 @@ a {
     cursor: pointer;
    padding: 0.5rem;
 }
+a:hover {
+    text-decoration: underline;
+}
 /* nav top bar */
 .navbar 
 {
@@ -66,7 +69,7 @@ a {
 .btn {
     background-color: #f6f6f6;
     border-radius: 4px;
-    color: #9B9B9B;
+    color: rgba(0,0,0,.54);
     height: 2rem;
     border: 0;
     margin: 1rem 1rem;
@@ -82,4 +85,36 @@ a {
     margin: 1rem 1rem;
     cursor: pointer; 
     
+}
+#logo-search p {
+    text-align: center;
+    color: black;
+    font-size: 0.7rem;
+    margin: 1rem auto;
+}
+#logo-search a {
+    display: inline;
+    color:blue;
+}
+
+/* footer  and bottom bar*/
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color:rgba(0,0,0,.54);
+    width: 100%;
+    font-size: 14px;
+   background-color: rgb(242, 242, 242);
+}
+footer p {
+    
+    padding: 0.5rem 1rem;
+    border: 0.5px solid #e4e4e4;
+    width: 100%;
+}
+.bottom-nav {
+display: flex;
+justify-content: space-between;
+padding: 0.5rem;
 }
